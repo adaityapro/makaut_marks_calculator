@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Makaut Marks calculator</h1>
+    <input type="number" id="sgpa1" placeholder="Enter SGPA1" />
+    <input type="number" id="sgpa2" placeholder="Enter SGPA2" />
+    <input
+      type="number"
+      id="totalSubjects1"
+      placeholder="Enter Total Subjects1"
+    />
+    <input
+      type="number"
+      id="totalSubjects2"
+      placeholder="Enter Total Subjects2"
+    />
+
+    <button onclick="calculateMarks()">Calculate</button>
+
+    <p>YGPA: <span id="ygpa-result"></span></p>
+    <p>Percentage: <span id="percentage-result"></span></p>
+    <p>Total Marks: <span id="totalMarks-result"></span></p>
+    <p>Obtained Marks: <span id="obtainedMarks-result"></span></p>
+    <script src="script.js"></script>
+  </body>
+</html>
